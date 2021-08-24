@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        /* ELEMENTS */
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center; /* center of the page from top to bot*/
+    justify-content: center; /* center of page from left to right*/
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(255, 68, 68);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 8px;
+    margin-top: 20px;
+}
+
+li {
+    position: relative;
+    padding: 8px;
+    font-size: 16px;
+    transition: 0.1s;
+}
+         /* CLASS */
+
+         /* ID */
