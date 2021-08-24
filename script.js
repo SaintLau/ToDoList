@@ -9,7 +9,7 @@ add.onclick = event => {
 
     //in case of no type
 
-    if (!listitem.nodeValue.length) {
+    if (!listitem.value.length) {
         return alert("We could not find any word to add");
     }
 
