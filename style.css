@@ -12,7 +12,7 @@ body {
     align-items: center; /* center of the page from top to bot*/
     justify-content: center; /* center of page from left to right*/
     font-family: 'Open Sans', sans-serif;
-    background: rgb(255, 68, 68);
+    background: #EBFFFB;
 }
 
 h2 {
@@ -34,11 +34,11 @@ li {
 }
 
 li:nth-child(odd) { /* matches every element (in this case li) that is the nth-child no matter the type of the parent */
-    background: rgb(255, 266, 266);
+    background: #7EFAFF;
 }
 
 li:hover {
-    background: rgb(255, 168, 168);
+    background: #13ABC4;
 }
 
          /* CLASS */
@@ -63,7 +63,7 @@ li:hover {
 }
 
 .close:hover {
-    background: rgb(255, 68, 68);
+    background: #3161A3;
 }
          /* ID */
 
@@ -74,13 +74,13 @@ li:hover {
     transition: 0.15s;
 }
 
-#listitem:focus {
-    border-bottom: 2px solid rgb(255, 68, 68);
+#listitem:focus { /* changes line color when about to write */
+    border-bottom: 2px solid #7EFAFF;
 }
 
-#add {
+#add { /* the btn */
     border: 0;
-    background: rgb(255,68 , 68);
+    background: #13ABC4;
     color: #fff;
     padding: 8px 16px;
     cursor: pointer; /* changes the shape of cursor */
