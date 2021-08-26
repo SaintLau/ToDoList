@@ -52,6 +52,9 @@ li:hover {
     background: #fff;
 }
 
+.title {
+    color: #13ABC4;
+}
 .close {
     position: absolute;
     right: 0px;
