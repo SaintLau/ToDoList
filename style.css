@@ -32,6 +32,61 @@ li {
     font-size: 16px;
     transition: 0.1s;
 }
+
+li:nth-child(odd) { /* matches every element (in this case li) that is the nth-child no matter the type of the parent */
+    background: rgb(255, 266, 266);
+}
+
+li:hover {
+    background: rgb(255, 168, 168);
+}
+
          /* CLASS */
 
+.container {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    width: 350px;
+    background: #fff;
+}
+
+.close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: inline-block;
+    padding: 10.75px;
+    border: 0;
+    background: transparent;
+}
+
+.close:hover {
+    background: rgb(255, 68, 68);
+}
          /* ID */
+
+#listitem {
+    border: 0;
+    border-bottom: 2px solid #000;
+    outline: none;
+    transition: 0.15s;
+}
+
+#listitem:focus {
+    border-bottom: 2px solid rgb(255, 68, 68);
+}
+
+#add {
+    border: 0;
+    background: rgb(255,68 , 68);
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer; /* changes the shape of cursor */
+}
+
+#list {
+    list-style-type: none;
+    margin-top: 20px;
+}
